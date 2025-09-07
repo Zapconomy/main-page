@@ -50,7 +50,7 @@
 
     <div id="decentralized" class="tab-content card">
       <div class="links-circles">
-        <a href="https://bsky.app/profile/zapconomy.bsky.social" title="Bluesky">
+        <a href="https://bsky.app/profile/zapconomy.com" title="Bluesky">
           <img src="https://raw.githubusercontent.com/bluesky-social/social-app/refs/heads/main/assets/app-icons/ios_icon_core_flat_blue.png" alt="bluesky logo png">
         </a>
         <a href="https://mastodon.social/@zapconomy" title="Mastodon">
@@ -173,6 +173,13 @@
       font-weight: bold;
     }
   </style>
+
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+</script>
 
 </body>
 </html>
